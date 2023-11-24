@@ -1,0 +1,64 @@
+.post {
+    padding: 10px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.post:hover {
+    background-color: var(--twitter-background);
+    cursor: pointer;
+}
+
+.post-header {
+    display: flex;
+}
+
+.post-header > * {
+    margin-bottom: 0px;
+}
+
+
+.form-flex > img {
+    margin: 10px;
+}
+
+.reactions {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.reactions > span {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: rgb(83, 83, 83);
+}
+
+small {
+    transition: 0.2s ease;
+}
+
+.like:hover {
+    color: red !important;
+}
+
+.retweet:hover {
+    color: green !important;
+}
+
+.like:visited {
+    color: red !important;
+}
+
+.fa-solid {
+    color: inherit;
+    transition: 0.2s ease;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-retweet:hover {
+    color: green;
+}

@@ -1,0 +1,49 @@
+.login {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--twitter-blue);
+}
+
+.container {
+    width: 400px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container > * {
+    margin-top: 20px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-wrapper > button {
+    background-color: var(--twitter-blue);
+    color: white;
+    margin: 10px;
+    width: 100px;
+}
+
+.btn-wrapper > button:hover {
+    background-color: var(--twitter-blue);
+    color: white;
+    margin: 10px;
+    width: 100px;
+}
+
+.btn-wrapper > button:focus {
+    background-color: var(--twitter-blue);
+    color: white;
+    margin: 10px;
+    width: 100px;
+}
